@@ -14,6 +14,9 @@
     position: absolute;
   }
   header::after {
+    content: "";
+    display: block;
+    clear: both;
   }
   nav {
     display: flex;
@@ -40,6 +43,8 @@
     font-size: 1em;
   }
   body {
+    box-sizing: border-box;
+    line-height: 1.6;
   }
   .first_section {
     text-align: center;
@@ -50,8 +55,7 @@
   main {
     position: relative;
   }
-  .first_section .center {
-  }
+  
   .first_section .center h1 {
     color: white;
     font-size: 120px;
@@ -124,8 +128,7 @@
     justify-content: center;
   }
   
-  .another-one {
-  }
+
   .another-two {
     margin-left: 50px;
   }
