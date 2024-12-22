@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  header {
+    height: 1300px;
+    width: 100%;
+    background-image: url(/ALXPICS/Object.png);
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the image */
+    position: absolute;
+  }
+  header::after {
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    margin: 40px;
+    display: flex;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  nav img {
+    margin: 40px;
+  }
+  header ul li {
+    list-style: none;
+    margin: 10px 20px;
+  }
+  header ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  body {
+  }
+  .first_section {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    left: 0px;
+  }
+  main {
+    position: relative;
+  }
+  .first_section .center {
+  }
+  .first_section .center h1 {
+    color: white;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .first_section .center span {
+    font-family: inherit;
+    color: white;
+    font-weight: bolder;
+    line-height: 80px;
+    padding: 50px 20px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .first_section .center button {
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    line-height: 50px;
+    width: 250px;
+    font-size: 1.1em;
+    border-radius: 50px;
+    box-shadow: 0 0 1px 2px #35426b;
+    background-color: #c271ff;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+  }
+  .second h2 {
+    font-size: 2em;
+    margin-top: 150px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .first-child {
+    color: #c271ff;
+    font-weight: 500;
+  }
+  
+  .pictures {
+    display: flex;
+    clear: both;
+  }
+  .pictures div {
+    margin-top: 100px;
+    padding: 0px;
+    color: white;
+    margin-left: 150px;
+  }
+  .third {
+    border-radius: 80px;
+  }
+  .pictures div p {
+    font-weight: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+  
+  .another {
+    position: relative;
+    display: flex;
+    margin-top: 400px;
+    margin-left: 0px;
+    height: 300px;
+    background-color: #c271ff;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .another-one {
+  }
+  .another-two {
+    margin-left: 50px;
+  }
+  .another-two h3 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .third-section .flexing {
+    display: flex;
+    flex-direction: row;
+  }
+  .third-section .flexing {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+  }
+  .third-section h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 100;
+  }
+  
+  .third-section div div {
+    display: flex;
+  }
+  
+  .tag {
+    margin: 0 50px;
+    position: relative;
+  }
+  
+  .wrap {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    width: 250px;
+  }
+  .small-img {
+    width: 40px;
+    height: 40px;
+  }
+  .smalle {
+    position: absolute;
+    right: 90px;
+    top: 35px;
+  }
+  .tag h3 {
+    font-weight: bolder;
+    padding: 9px 0;
+  }
+  
+  .tag p {
+    font-weight: 40;
+  }
+  .tag .holo {
+    margin: 10px 0;
+  }
+  .tag .holo img {
+    padding: 8px 5px 0;
+    margin: 2px 0;
+  }
+  
+  .tag .holo h4 {
+    margin-left: 6px;
+    margin-top: 15px;
+    text-align: center;
+    color: #c271ff;
+  }
+  
+  .star i {
+    color: #c271ff;
+    padding: 0 5px;
+  }
+  .minute {
+    margin-left: 200px;
+    color: #c271ff;
+    margin-top: -20px;
+  }
+  .fourth-section {
+    display: flex;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #071629;
+    margin-top: -70px;
+  }
+  .fourth-section div p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    width: 350px;
+    align-items: center;
+  }
+  .fourth-section div {
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+  }
+  
+  .fourth-section div button {
+    display: block;
+    margin-left: -700px;
+  }
+  
+  .for-them h2 {
+    background-color: #071629;
+    height: 25px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 50px;
+  }
+  .for-them {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .for-them button {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    margin-left: 750px;
+    outline: none;
+    line-height: 2.5em;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #c271ff;
+  }
+  .fifth-section {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: center;
+  }
+  .fifth-section .first-row {
+    display: flex;
+  }
+  .first-roww {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 600px;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  
+  .first-roww .inside {
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  .h2element h2 {
+    text-align: center;
+    margin: 70px;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  
+  footer {
+    height: 250px;
+    background-color: #071629;
+  }
+  footer section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  footer section div i {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 18px;
+    margin: 0 15px;
+  }
+  .alignment {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: 90px;
+    padding-top: 100px;
+  }
+  .alignment img {
+    margin-left: 90px;
+  }
+  .stares {
+    margin-right: 90px;
+  }
+  footer section p {
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+  }
