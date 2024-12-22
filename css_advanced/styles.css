@@ -13,11 +13,7 @@
     background-position: center; /* Center the image */
     position: absolute;
   }
-  header::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
+  
   nav {
     display: flex;
     justify-content: space-between;
@@ -42,10 +38,7 @@
     text-decoration: none;
     font-size: 1em;
   }
-  body {
-    box-sizing: border-box;
-    line-height: 1.6;
-  }
+
   .first_section {
     text-align: center;
     position: relative;
@@ -327,3 +320,4 @@
     color: white;
     margin-top: 90px;
   }
+  
